@@ -6,8 +6,8 @@ public class Temperature_Tracker {
     static int count = 0;
     static double total = 0.0;
     static double mean;
-    static Integer min;
-    static Integer max;
+    static int min;
+    static int max;
 
     public static void insert(int temp) {
 
