@@ -1,7 +1,7 @@
 public class Temperature_Tracker {
     
     static int freq[] = new int[111]; 
-    static int maxFreq = 0;
+    static int Freq = 0;
     static int mode;  
     static int count = 0;
     static double total = 0.0;
@@ -12,9 +12,9 @@ public class Temperature_Tracker {
     public static void insert(int temp) {
 
         freq[temp]++;
-        if (freq[temp] > maxFreq) {
+        if (freq[temp] > Freq) {
             mode = temp;
-            maxFreq = freq[temp];
+            Freq = freq[temp];
         }
 
         count++;
