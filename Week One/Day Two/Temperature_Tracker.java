@@ -29,27 +29,27 @@ public class Temperature_Tracker {
     }
 
 
-    public static Double Mean() {
+    public static double Mean() {
 
         return mean;
 
     }
 
 
-    public static Integer Mode() {
+    public static int Mode() {
 
         return mode;
 
     }
 
-    public static Integer Max() {
+    public static int Max() {
 
         return max;
 
     }
 
 
-    public static Integer Min() {
+    public static int Min() {
 
         return min;
 
