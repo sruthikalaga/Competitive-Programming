@@ -2,10 +2,10 @@ public class Temperature_Tracker {
     
     static int freq[] = new int[111]; 
     static int maxFreq = 0;
-    static Integer mode;  
+    static int mode;  
     static int count = 0;
     static double total = 0.0;
-    static Double mean;
+    static double mean;
     static Integer min;
     static Integer max;
 
